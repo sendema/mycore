@@ -1,0 +1,21 @@
+{
+    "name": "sendema/mycore",
+    "description": "Example package.",
+    "type": "library",
+    "require": {
+        "php": "^8.3",
+        "phpunit/phpunit": "^9.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sendema\\Mycore\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sendema",
+            "email": "vanzhilova@yandex.ru"
+        }
+    ]
+}
